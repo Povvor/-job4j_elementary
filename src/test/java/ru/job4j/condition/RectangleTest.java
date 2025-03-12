@@ -42,10 +42,10 @@ class RectangleTest {
     }
 
     @Test
-    void whenLength50AndWidth50ThenDiagonal70Dot711() {
+    void whenLength50AndWidth50ThenDiagonal86Dot023() {
         double length = 50;
-        double width = 50;
-        double expected = 70.711;
+        double width = 70;
+        double expected = 86.023;
         double output = Rectangle.diagonal(length, width);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
