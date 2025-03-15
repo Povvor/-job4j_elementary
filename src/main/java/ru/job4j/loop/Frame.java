@@ -25,5 +25,9 @@ public class Frame {
         draw(3);
         System.out.println("Draw frame of size 5");
         draw(5);
+        System.out.println("Draw frame of size 2");
+        draw(2);
+        System.out.println("Draw frame of size 10");
+        draw(10);
     }
 }
