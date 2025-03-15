@@ -5,12 +5,10 @@ public class CheckPrimeNumber {
         if (num < 2) {
             return false;
         }
-        int i = 2;
-        while (i < num) {
+        for (int i = 2; i < num; i++) {
             if (num % i == 0) {
                  return false;
             }
-            i++;
         }
         return true;
 
