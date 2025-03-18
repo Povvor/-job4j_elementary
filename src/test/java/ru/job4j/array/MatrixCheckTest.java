@@ -27,4 +27,16 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenHasNotMononNullHorizontal() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'X', 'X', 'X'},
+                {'X', 'X', ' '},
+        };
+        int row = 0;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        assertThat(result).isFalse();
+    }
 }
