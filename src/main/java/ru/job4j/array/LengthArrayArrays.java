@@ -5,7 +5,7 @@ public class LengthArrayArrays {
         int[][] numbers = {{1}, {2, 3}, {4, 5, 6}, {7, 8, 9, 10}};
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(
-                    "Размер вложенного массива равен:  " + numbers[i].length
+                    "Р Р°Р·РјРµСЂ РІР»РѕР¶РµРЅРЅРѕРіРѕ РјР°СЃСЃРёРІР° СЂР°РІРµРЅ: " + numbers[i].length
             );
         }
     }
