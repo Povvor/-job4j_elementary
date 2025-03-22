@@ -24,7 +24,6 @@ public class MathCalculator {
         System.out.println("Результат расчета 'Сумма и Произведение' равен: " + sumAndMultiply(first, second));
         System.out.println("Результат расчета 'Разность и Частное' равен: " + subtractAndDivide(first, second));
         System.out.println("Результат расчета 'Считаем Все!' равен: " + allToMath(first, second));
-
     }
 
 }
