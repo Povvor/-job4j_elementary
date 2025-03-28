@@ -2,15 +2,15 @@ package ru.job4j.condition;
 
 public class Max {
 
-    public  double Maximum(double first, double second) {
-        return(first > second ? first : second);
+    public  double maximum(double first, double second) {
+        return (first > second ? first : second);
     }
 
-    public  double Maximum(double first, double second, double third) {
-        return(third > Maximum(first, second) ? third : Maximum(first, second));
+    public  double maximum(double first, double second, double third) {
+        return (third > maximum(first, second) ? third : maximum(first, second));
     }
 
-    public  double Maximum(double first, double second, double third, double fourth) {
-        return(fourth > Maximum(first, second, third) ? fourth : Maximum(first, second, third));
+    public  double maximum(double first, double second, double third, double fourth) {
+        return (fourth > maximum(first, second, third) ? fourth : maximum(first, second, third));
     }
 }

@@ -13,7 +13,7 @@ class MaxTest {
         double third = 2;
         double fourth = 0;
         double expected = 2;
-        double output = max.Maximum(first, second, third, fourth);
+        double output = max.maximum(first, second, third, fourth);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
@@ -25,7 +25,7 @@ class MaxTest {
         double third = 3;
         double fourth = 9;
         double expected = 9;
-        double output = max.Maximum(first, second, third, fourth);
+        double output = max.maximum(first, second, third, fourth);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
@@ -37,7 +37,7 @@ class MaxTest {
         double third = 1;
         double fourth = 1;
         double expected = 1;
-        double output = max.Maximum(first, second, third, fourth);
+        double output = max.maximum(first, second, third, fourth);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 }
