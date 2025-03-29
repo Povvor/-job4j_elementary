@@ -7,10 +7,10 @@ public class Max {
     }
 
     public  double maximum(double first, double second, double third) {
-        return (third > maximum(first, second) ? third : maximum(first, second));
+        return maximum(first, maximum(second, third));
     }
 
     public  double maximum(double first, double second, double third, double fourth) {
-        return (fourth > maximum(first, second, third) ? fourth : maximum(first, second, third));
+        return maximum(first, maximum(second, third, fourth));
     }
 }
